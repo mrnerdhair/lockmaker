@@ -1,0 +1,4 @@
+/.git*
+/.lfs*
+archived-packages
+/*.tgz

@@ -1,0 +1,24 @@
+{
+  "name": "lockmaker",
+  "description": "Downloads local copies of a package's dependencies and updates package-lock.json to point to them.",
+  "version": "0.1.0",
+  "main": "index.js",
+  "bin": "bootstrap.js",
+  "scripts": {
+    "start": "node bootstrap.js",
+    "preshrinkwrap": "node bootstrap.js preshrinkwrap",
+    "postshrinkwrap": "node bootstrap.js postshrinkwrap"
+  },
+  "dependencies": {
+    "commander": "^2.15.1",
+    "mkdirp": "^0.5.1",
+    "node-fetch": "^2.1.2",
+    "ssri": "^6.0.0"
+  },
+  "bundledDependencies": [
+    "commander",
+    "node-fetch",
+    "ssri",
+    "mkdirp"
+  ]
+}
