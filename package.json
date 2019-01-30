@@ -1,7 +1,16 @@
 {
   "name": "lockmaker",
   "description": "Downloads local copies of a package's dependencies and updates package-lock.json to point to them.",
-  "version": "0.1.0",
+  "license": "MIT",
+  "version": "0.1.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/reidrankin/lockmaker.git"
+  },
+  "author": {
+    "name": "Reid Rankin",
+    "email": "reidrankin@gmail.com"
+  },
   "main": "index.js",
   "bin": "bootstrap.js",
   "scripts": {
